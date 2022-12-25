@@ -1,0 +1,101 @@
+.introduction{
+    color:white;
+    background-size: cover;
+    height: 700px;
+    align-items:flex-start !important;
+    background: linear-gradient(0, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://i0.wp.com/www.techquintal.com/wp-content/uploads/2021/05/Information-Technology.jpg?fit=1366%2C768&ssl=1");
+}
+
+.introduction h2{
+    color: white;
+    padding-top: 20px;
+}
+
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.a p{
+    font-size: 3em;
+}
+
+.note{
+    border: solid white 1px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 500px;
+    height: 60px;
+    padding-left:10px;
+    display:inline;
+}
+.note:active{
+    border: solid white 1px;
+}
+
+.btn{
+    position: absolute;
+    background: blue;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.test{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.startquizTable{
+    background: white;
+    padding: 5px;
+}
+
+.startquiz{
+    display: flex;
+    padding: 17%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.playbutton{
+    width:100%; 
+    padding: 15px; 
+    background: rgb(207, 140, 15);
+}
+
+.quest{
+    position: absolute;
+    top: 10%;
+    left: 32%;
+    background: rgb(43, 42, 42);
+    padding: 5px;
+    color: white;
+}
+
+.imgquest{
+    width: 500px;
+    height: 300px;
+}
+
+.ans{
+    width:100%;
+    border: 1px black solid;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+ul{
+    padding-left: 0;
+}
+
+li{
+    margin-top: 5px;
+}
+
+
+
